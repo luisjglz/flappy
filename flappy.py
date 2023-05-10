@@ -46,6 +46,7 @@ def draw(alive):
     update()
 
 puntos = 0
+
 def move():
     """Update object positions."""
     bird.y -= 5
