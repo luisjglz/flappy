@@ -45,7 +45,7 @@ def draw(alive):
 
     update()
 
-
+puntos = 0
 def move():
     """Update object positions."""
     bird.y -= 5
@@ -59,6 +59,10 @@ def move():
         balls.append(ball)
 
     while len(balls) > 0 and not inside(balls[0]):
+        #sumar un punto
+        global puntos
+        puntos += 1
+        print(puntos)
         balls.pop(0)
 
     if not inside(bird):
