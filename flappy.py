@@ -1,5 +1,5 @@
 """Flappy, game inspired by Flappy Bird.
-LJ
+LJG
 Exercises
 
 1. Keep score.
